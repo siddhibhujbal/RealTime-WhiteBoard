@@ -1,4 +1,4 @@
-const socket = io;
+const socket = io();
 
 // basic setup
 const board=document.querySelector(".board");
