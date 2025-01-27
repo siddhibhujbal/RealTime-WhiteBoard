@@ -1,4 +1,4 @@
-const socket = io.connect("https://pepboard-1.onrender.com");
+const socket = io;
 
 // basic setup
 const board=document.querySelector(".board");
