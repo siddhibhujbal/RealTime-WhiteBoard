@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("https://realtime-whiteboard-4on4.onrender.com");
 
 // basic setup
 const board=document.querySelector(".board");
